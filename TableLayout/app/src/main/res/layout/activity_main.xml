@@ -1,0 +1,35 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:padding="16dp">
+
+    <!-- Header Row -->
+    <TableRow>
+        <TextView
+            android:text="Name"
+            android:textStyle="bold"/>
+        <TextView
+            android:text="Roll No"
+            android:textStyle="bold"/>
+        <TextView
+            android:text="Div"
+            android:textStyle="bold"/>
+    </TableRow>
+
+    <!-- Row 1 -->
+    <TableRow>
+        <TextView android:text="Snehal"/>
+        <TextView android:text="23"/>
+        <TextView android:text="A"/>
+    </TableRow>
+
+    <!-- Row 2 -->
+    <TableRow>
+        <TextView android:text="Sanika"/>
+        <TextView android:text="45"/>
+        <TextView android:text="B"/>
+    </TableRow>
+
+</TableLayout>
